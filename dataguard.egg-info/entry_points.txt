@@ -1,0 +1,2 @@
+[console_scripts]
+dataGuard = dataguard.cli:main

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(uv run *)",
+      "PowerShell($skillDir = \"C:\\\\Users\\\\jeyapaul.d.paulraj\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\990c5a80-1c14-4444-9de9-b2fb93471422\\\\da0addea-649d-4574-94b3-dbeb57513433\\\\skills\\\\pptx\"; $pptx = \"C:\\\\Users\\\\jeyapaul.d.paulraj\\\\OneDrive - Accenture\\\\Documents\\\\Capital One\\\\test_project\\\\_bmad-output\\\\planning-artifacts\\\\prds\\\\prd-test_project-2026-09-28\\\\DataGuard-PRD.pptx\"; $scratch = \"C:\\\\Users\\\\JEYAPA~1.PAU\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-jeyapaul-d-paulraj-OneDrive---Accenture-Documents-Capital-One-test-project\\\\6d801548-0345-4d70-b5df-b1859f97388b\\\\scratchpad\"; python \"$skillDir\\\\scripts\\\\office\\\\soffice.py\" --headless --convert-to pdf \"$pptx\" --outdir \"$scratch\")",
+      "PowerShell($pptx = \"C:\\\\Users\\\\jeyapaul.d.paulraj\\\\OneDrive - Accenture\\\\Documents\\\\Capital One\\\\test_project\\\\_bmad-output\\\\planning-artifacts\\\\prds\\\\prd-test_project-2026-09-28\\\\DataGuard-PRD.pptx\"; $scratch = \"C:\\\\Users\\\\JEYAPA~1.PAU\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-jeyapaul-d-paulraj-OneDrive---Accenture-Documents-Capital-One-test-project\\\\6d801548-0345-4d70-b5df-b1859f97388b\\\\scratchpad\"; python \"C:\\\\Temp\\\\pptx-scripts\\\\thumbnail.py\" \"$pptx\" \"$scratch\\\\dg-thumbs\" 2>&1)",
+      "PowerShell(pip install defusedxml python-pptx Pillow -q; $pptx = \"C:\\\\Users\\\\jeyapaul.d.paulraj\\\\OneDrive - Accenture\\\\Documents\\\\Capital One\\\\test_project\\\\_bmad-output\\\\planning-artifacts\\\\prds\\\\prd-test_project-2026-09-28\\\\DataGuard-PRD.pptx\"; $scratch = \"C:\\\\Users\\\\JEYAPA~1.PAU\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-jeyapaul-d-paulraj-OneDrive---Accenture-Documents-Capital-One-test-project\\\\6d801548-0345-4d70-b5df-b1859f97388b\\\\scratchpad\"; python \"C:\\\\Temp\\\\pptx-scripts\\\\thumbnail.py\" \"$pptx\" \"$scratch\\\\dg-thumbs\" 2>&1)"
+    ]
+  }
+}
